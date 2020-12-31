@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+p {
+    font-family: 'Satisfy', cursive;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 3rem;
+}
+
+img {
+    height: 18rem;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.site {
+    background-image: url(./imagen1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
